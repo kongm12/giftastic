@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     function displayInfo() {
         var sport = $(this).attr("sport-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + sport + "xhUgeQNyIqq0gGVa08O5v7A9qpO4vXAO";
+        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=xhUgeQNyIqq0gGVa08O5v7A9qpO4vXAO";
 
         //use AJAX to GET information on sport button clicked
 
